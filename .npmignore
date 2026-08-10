@@ -1,0 +1,8 @@
+# Only ship runtime artifacts (also enforced by package.json "files")
+*
+!dist/
+!dist/**
+!bin/
+!bin/**
+!README.md
+!package.json

@@ -1,0 +1,55 @@
+{
+  "name": "@techleads.fyi/api",
+  "version": "0.2.1",
+  "description": "TechLeads API SDK and CLI — technology lookup for any website",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "tlf": "bin/tlf.js",
+    "techleads": "bin/tlf.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "tlf": "node bin/tlf.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "techleads",
+    "technographics",
+    "wappalyzer",
+    "builtwith",
+    "cli"
+  ],
+  "license": "MIT",
+  "homepage": "https://techleads.fyi/developers?tab=npm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techleads-fyi/api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/techleads-fyi/api/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
