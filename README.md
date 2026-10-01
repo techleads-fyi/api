@@ -2,7 +2,7 @@
 
 TechLeads technology lookup — SDK + CLI (`tlf` / `techleads`).
 
-[![How to Build GTM Workflow with Technographics Using the TechLeads API](https://youtube.com)](https://www.youtube.com/watch?v=AwCPIHtWDMw
+[![Watch the demo](https://img.youtube.com/vi/AwCPIHtWDMw/maxresdefault.jpg)](https://www.youtube.com/watch?v=AwCPIHtWDMw)
 
 ## Install
 
